@@ -6,8 +6,7 @@
 
 ## 🌟Project Overview and Scope
 
-### Objective
-Cybersecurity analysis on a PyTorch-trained neural network after deployment in a web environment, using ONNX for model conversion and ONNX.js for execution in the browser.
+This project presents a cybersecurity analysis on a PyTorch-trained neural network after deployment in a web environment, using ONNX for model conversion and ONNX.js for execution in the browser.
 <p align="center">
 <img src="images/nature.png" />
 </p>
