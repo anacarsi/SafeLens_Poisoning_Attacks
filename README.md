@@ -8,6 +8,9 @@
 
 ### Objective
 Cybersecurity analysis on a PyTorch-trained neural network after deployment in a web environment, using ONNX for model conversion and ONNX.js for execution in the browser.
+<p align="center">
+<img src="images/nature.png" />
+</p>
 
 ### Key Deliverables
 1. **Functional ONNX Model**: A basic image classification neural network trained in PyTorch and converted to ONNX format.
@@ -15,7 +18,7 @@ Cybersecurity analysis on a PyTorch-trained neural network after deployment in a
 3. **Security Testing**: Controlled security testing on the model to evaluate its robustness against malicious inputs and corrupted models.
 
 <p align="center">
-<img src="images/layout_310332025.png" />
+<img src="images/layout_31032025.png" />
 </p>
 
 ## Functionality
@@ -23,7 +26,11 @@ Cybersecurity analysis on a PyTorch-trained neural network after deployment in a
 
 2. Obtain metrics on accuracy on src/onnxmodel/validate_models_train.ipynb
 
-3. Find effects of the attacks: src/poisoning_attack or src/evasion_attack for results.
+3. Find effects of the attacks: src/poisoning_attack or src/evasion_attack for results. An overview of the pipeline for the evasion attacks would be the following.
+
+<p align="center">
+<img src="images/pipeline.png" />
+</p>
 
 ## Getting Started
 
@@ -34,7 +41,7 @@ Cybersecurity analysis on a PyTorch-trained neural network after deployment in a
 ### Installation
 1. Clone this repository:
    ```bash
-   git clone https://github.com/anacarsi/ws24_ONNX_Sec.git
+   git clone https://github.com/anacarsi/SafeLens_Poisoning_Attacks.git
 2. Run
     ```bash
     npm i
