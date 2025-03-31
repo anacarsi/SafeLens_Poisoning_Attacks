@@ -1,8 +1,8 @@
-<p align="center">
-<img src="images/logo-safelens-small.png" />
-</p>
 
-# SafeLens: Cyberattacks on ONNX Model Web Application
+# SafeLens - Cyberattacks on ONNX Model Web Application
+<p align="center">
+<img src="images/logo-safelens-small.png" width="400" />
+</p>
 
 ## 🌟Project Overview and Scope
 
