@@ -14,6 +14,9 @@ Cybersecurity analysis on a PyTorch-trained neural network after deployment in a
 2. **Web Application**: A browser-based user interface that loads and executes the ONNX model using ONNX.js.
 3. **Security Testing**: Controlled security testing on the model to evaluate its robustness against malicious inputs and corrupted models.
 
+<p align="center">
+<img src="images/layout_310332025.png" />
+</p>
 
 ## Functionality
 1. Obtaining the model by loading it from folder saved_models
