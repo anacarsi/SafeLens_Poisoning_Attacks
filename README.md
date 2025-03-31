@@ -12,7 +12,7 @@ This project presents a cybersecurity analysis on a PyTorch-trained neural netwo
 </p>
 
 ### Key Deliverables
-1. **Functional ONNX Model**: A basic image classification neural network trained in PyTorch and converted to ONNX format.
+1. **Functional ONNX Model**: A basic image classification neural network trained in PyTorch and converted to ONNX format. Two neural networks were trained, one on CIFAR-10 and other on Tiny-Imagenet-200 datasets.
 2. **Web Application**: A browser-based user interface that loads and executes the ONNX model using ONNX.js.
 3. **Security Testing**: Controlled security testing on the model to evaluate its robustness against malicious inputs and corrupted models.
 
@@ -29,6 +29,17 @@ This project presents a cybersecurity analysis on a PyTorch-trained neural netwo
 
 <p align="center">
 <img src="images/pipeline.png" />
+</p>
+
+## Results
+The training results of the models were:
+<p align="center">
+<img src="images/training_results.jpeg" />
+</p>
+
+After poisoning, the effects on accuracy of the inference were remarkable.
+<p align="center">
+<img src="images/poisoning_new_cifar.jpg" />
 </p>
 
 ## Getting Started
