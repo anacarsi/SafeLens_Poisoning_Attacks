@@ -1,0 +1,238 @@
+/* This file contains styles layout, upper pane, sidebar, and main content. */
+
+/* Ana Carsi - 2025 */
+.container {
+  min-height: 100vh;
+  padding: 0 0.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.main {
+  padding: 4rem 2rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem; 
+  position: relative;
+  min-height: 100vh;
+}
+
+.title {
+  margin: 0;
+  line-height: 1.15;
+  font-size: 3rem;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+  color: #0b3f73; 
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 800px;
+  margin-top: 3rem;
+}
+
+.buttonContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  gap: 2rem;
+  width: 100%;
+  padding: 0 2rem;
+}
+
+.contentContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.dashboard {
+  display: flex;
+  flex-direction: row;
+  height: 100vh;
+  width: 100%;
+}
+
+.sidebar {
+  width: 250px; /* Adjust width of the sidebar */
+  background-color: #001f3f; /* Dark blue */
+  color: #ffffff; /* White text */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.logoContainer {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.logo {
+  width: 200px; 
+  height: auto;
+  margin-bottom: 2rem;
+}
+
+.agencyTitle {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #ffffff; 
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sidebar li {
+  margin: 1rem 0;
+}
+
+.sidebar a {
+  color: #ffffff; 
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 1rem;
+}
+
+.sidebar a:hover {
+  text-decoration: underline;
+}
+
+.contact {
+  margin-top: auto; 
+  font-size: 0.9rem;
+  color: #ffffff; 
+}
+
+.content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.mainContent {
+  flex: 1; /* Take up remaining space */
+  display: flex;
+  flex-direction: column;
+}
+
+.hero {
+  text-align: center;
+  padding: 4rem 2rem;
+  background-color: #b6b8d27d; 
+  border-bottom: 2px solid #001f3f; 
+  margin-top: 0; 
+}
+
+.heroTitle {
+  font-size: 3.5rem;
+  color: var(--secondary-color); 
+  margin-bottom: 1rem;
+}
+
+.heroSubtitle {
+  font-size: 1.5rem;
+  color: #0b3f73; 
+  margin-bottom: 2rem;
+}
+
+.upperPane {
+  display: flex;
+  justify-content: space-around; 
+  align-items: center;
+  background-color: #f5f5f5; 
+  padding: 2rem; 
+  border-bottom: 2px solid #001f3f; 
+  font-size: 1.2rem; 
+}
+
+.upperPaneSection {
+  font-size: 1.2rem; 
+  font-weight: 600; 
+  text-align: center; 
+  flex: 1; /* Make sections take equal space */
+  padding: 1rem; 
+}
+
+.upperPaneSection a {
+  color: #001f3f; 
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.upperPaneSection a:hover {
+  color: #0056b3; 
+}
+
+.upperPaneSection:hover::after {
+  content: attr(data-tooltip); 
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #001f3f; 
+  color: #ffffff; 
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  z-index: 10;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); 
+}
+
+.stickyNews {
+  display: none; 
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  background-color: #f0f8ff;
+  color: #001f3f; 
+  padding: 1.5rem; 
+  border: 1px solid #001f3f;
+  border-radius: 4px;
+  font-size: 1rem; 
+  z-index: 10;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.footer {
+  text-align: center;
+  padding: 2rem;
+  background-color: #001f3f; 
+  color: #ffffff; 
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+  margin: 1rem 0 0;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+}

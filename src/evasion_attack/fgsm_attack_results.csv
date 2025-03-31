@@ -1,0 +1,7 @@
+Epsilon,Clean Accuracy,Adversarial Accuracy,Examples
+0.05,0.6208254894578312,0.16226666666666667,"True:1, Adversarial:8; True:4, Adversarial:5; True:7, Adversarial:5; True:4, Adversarial:2; True:9, Adversarial:0"
+0.1,0.6157034387550201,0.0816,"True:1, Adversarial:0; True:4, Adversarial:5; True:7, Adversarial:5; True:4, Adversarial:0; True:1, Adversarial:8"
+0.15,0.6131212349397591,0.04346666666666667,"True:1, Adversarial:8; True:4, Adversarial:5; True:7, Adversarial:8; True:4, Adversarial:8; True:1, Adversarial:8"
+0.2,0.6153457580321285,0.03,"True:1, Adversarial:8; True:4, Adversarial:2; True:7, Adversarial:8; True:4, Adversarial:0; True:1, Adversarial:8"
+0.25,0.6139620983935743,0.02266666666666667,"True:1, Adversarial:8; True:4, Adversarial:8; True:7, Adversarial:8; True:4, Adversarial:0; True:1, Adversarial:0"
+0.3,0.6134036144578313,0.019733333333333332,"True:1, Adversarial:0; True:4, Adversarial:8; True:7, Adversarial:8; True:4, Adversarial:8; True:1, Adversarial:8"
